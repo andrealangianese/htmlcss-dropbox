@@ -28,6 +28,13 @@ a {
     border-radius: 4px;
 }
 
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 20px;
+}
 /* header */
 
 .navbar {
@@ -52,6 +59,48 @@ a {
     padding: 0 10px;
 }
 
+/* jumbo */
+
+.blue-container {
+    max-width: 100%;
+    background-color: rgb(107, 107, 222);
+}
+
+.blue-section {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(158, 10, 10);
+    height: 500px;
+
+}
+
+.blue-secondary-section {
+    display: flex;
+    gap: 20px;
+}
+
+.blue-section40 {
+    max-width: 38%;
+    background-color: aquamarine;
+    height: 100%;
+    margin: 30px 0;
+}
+
+.blue-section60 {
+    max-width: 60%;
+    background-color: rgb(90, 15, 52);
+    height: 100%;
+    margin: 30px 0;
+}
+
+.img-jumbo {
+    max-width: 100%;
+    height: auto;
+}
+
+.prova-gratuita {
+    margin: 20px 0;
+}
 
 
 
