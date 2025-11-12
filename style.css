@@ -1,0 +1,59 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* generics */
+
+.container80 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blue-button {
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* header */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 160, 57);
+    height: 70px;
+}
+
+.nav-sx,
+.nav-dx {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.nav-sx a {
+    padding: 0 10px;
+}
+
+.nav-dx a {
+    padding: 0 10px;
+}
+
+
+
+
+/* debug */
+
