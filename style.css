@@ -148,3 +148,14 @@ p {
 }
 
 /* section (esegui più operazioni) divisa in 6 (3 sopra 3 sotto)con wrap  */
+
+.operation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.operation-item {
+    background-color: blue;
+    width: calc((100% / 3) - (20px / 3));
+}
