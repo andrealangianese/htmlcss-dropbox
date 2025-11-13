@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -47,6 +53,7 @@
                         per ottimizzare il flusso di lavoro esistente.</p>
                     <a class="blue-button prova-gratuita" href="">Inizia la tua prova gratuita</a>
                     <p>annulla in qualsiasi momento</p>
+                    <div class="arrow"><i class="fa-solid fa-arrow-down"></i></div>
                 </div>
                 <div class="blue-section60">
                     <img class="img-jumbo" src="./img/jumbo.png" alt="">
@@ -58,7 +65,7 @@
     <div class="container70">
         <!-- section divisa in 3 -->
 
-        <section>
+        <section class="search-business">
             <h3>Trova il piano business che fa per te </h3>
             <div>
                 <input type="checkbox"> <span>Fatturazione mensile</span>
@@ -66,16 +73,17 @@
             </div>
             <div class="business-plan">
                 <div class="business-item">
-                    <span class="subtitle">Singolo</span>
+                    <span class="subtitle"><i class="fa-solid fa-user"></i>Singolo</span>
                     <div class="business-margin">
                         <h5>Professional</h5>
                         <h6>&euro; 12.00</h6>
                         <span>/ mese</span>
                         <!-- inserire iconeeēeeeeeeeee........................................... -->
                         <ul>
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione</li>
-                            <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            <li><i class="fa-solid fa-user"></i>1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione
+                                file semplice e sicura</li>
                         </ul>
                         <div class="blue-button">Prova gratis per 30 giorni</div>
                         <span>oppure <a href="">acquista ora</a></span>
@@ -83,13 +91,61 @@
                         <h6>Punti salienti del piano</h6>
                         <!-- ricordati di gestire il displayflex nelle regole generali -->
                         <ul>
-                            <li>Invia file fino a 100 GB con Dropbox Transfert</li> <br>
-                            <li>Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert</li> <br>
+                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
                         </ul>
                     </div>
                 </div>
-                <div class="business-item"></div>
-                <div class="business-item"></div>
+                 <div class="business-item">
+                    <span class="subtitle"><i class="fa-solid fa-users"></i>Team</span>
+                    <div class="business-margin">
+                        <h5>Advanced</h5>
+                        <h6>&euro; 18.00</h6>
+                        <span>/utente / mese</span>
+                        <!-- inserire iconeeēeeeeeeeee........................................... -->
+                        <ul>
+                            <li><i class="fa-solid fa-user"></i>3 o più utenti</li>
+                            <li><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
+                        </ul>
+                        <div class="blue-button">Prova gratis per 30 giorni</div>
+                        <span>oppure <a href="">acquista ora</a></span>
+                        <div class="spaziatura"></div>
+                        <h6>Punti salienti del piano</h6>
+                        <!-- ricordati di gestire il displayflex nelle regole generali -->
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li> 
+                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri nel team</li>
+                            <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="business-item">
+                    <span class="subtitle"><i class="fa-solid fa-building"></i>Azienda</span>
+                    <div class="business-margin">
+                        <h5>Enterprise</h5>
+                        <h6>Contattaci</h6>
+                        <span>-</span>
+                        <!-- inserire iconeeēeeeeeeeee........................................... -->
+                        <ul>
+                            <li><i class="fa-solid fa-user"></i>10 o più utenti</li>
+                            <li><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ul>
+                        <div class="blue-button">Contattaci</div>
+                        <span>oppure <a href="">acquista ora</a></span>
+                        <div class="spaziatura"></div>
+                        <h6>Punti salienti del piano</h6>
+                        <!-- ricordati di gestire il displayflex nelle regole generali -->
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                            <li><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -98,7 +154,7 @@
         <!-- section 80% enterprise -->
         <section class="enterprise">
             <div>
-                <span class="subtitle">Team</span>
+                <span class="subtitle"><i class="fa-solid fa-building"></i>Team</span>
             </div>
             <div class="enterprise-flex">
                 <div class="enterprise-flex-padding">
@@ -197,7 +253,7 @@
                     <li>
                         <div class="divisore-white"></div>
                     </li>
-                    <li><span class="italian"></span>Italiano</li>
+                    <li><span class="italian"></span><i class="fa-solid fa-earth-europe"></i>Italiano<i class="fa-solid fa-caret-down"></i></li>
                 </ul>
             </div>
             <div class="footer-items">
