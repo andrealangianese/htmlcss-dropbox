@@ -13,7 +13,7 @@
     background-color: beige;
 }
 
-ul,
+.navbar ul,
 li {
     list-style: none;
     display: flex;
@@ -158,4 +158,53 @@ p {
 .operation-item {
     width: calc((100% / 3) - (20px / 3));
     border: 1px solid black;
+}
+
+/* dropbox business */
+
+.dropbox-business h3 {
+    font-size: 30px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.dropbox-business a {
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    max-width: 100%;
+    background-color: black;
+    margin-top: 10%;
+}
+
+.footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-items {
+    color: white;
+    width: calc((100% / 5) - (30px / 4));
+}
+
+.footer-container a {
+    color: white;
+    margin: 10px 0;
+}
+
+.footer-container h5 {
+    font-size: 23px;
+    margin-top: 60px;
+}
+
+.divisore-white {
+    border: 1px solid white;
+    width: 55%;
+    margin-top: 50%;
+    margin-bottom: 30%;
 }
